@@ -58,6 +58,5 @@ func (s *service) Login(input LoginInput) (User, error) {
 	if err != nil {
 		return user, err
 	}
-
 	return user, nil
 }
